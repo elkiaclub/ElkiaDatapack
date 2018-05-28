@@ -21,3 +21,4 @@ Installation:
 - Type /reload in game.
 - Go to your world spawn, stand on the very lowest block (Y:0), and type /function elkia:elkia_setup
 - To join a player role: /tag <user> add <role> - Acceptable roles: admin, donator, veteran (remove these tags for default)
+- To setup custom crafting: /function elkia:crafting_setup

@@ -1,6 +1,7 @@
 team add AFK
 team option AFK color dark_gray
 team option AFK seeFriendlyInvisibles false
+team option AFK prefix ["",{"text":"[AFK]","color":"gray"}]
 scoreboard objectives add AFK_DisSwum minecraft.custom:minecraft.swim_one_cm
 scoreboard objectives add AFK_DisDove minecraft.custom:minecraft.dive_one_cm
 scoreboard objectives add AFK_DisWalk minecraft.custom:minecraft.walk_one_cm
@@ -12,3 +13,4 @@ scoreboard objectives add AFK_DisBoat minecraft.custom:minecraft.boat_one_cm
 scoreboard objectives add AFK_DisElytra minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add AFK_DisCart minecraft.custom:minecraft.minecart_one_cm
 scoreboard objectives add AFK_DisSprint minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add AFK_NotMoving trigger

@@ -5,11 +5,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:player_head",
-                        "count": {
-                            "min": 1,
-                            "max": 0
-                        }
+                        "item": "minecraft:player_head"
                     }
                 ]
             }

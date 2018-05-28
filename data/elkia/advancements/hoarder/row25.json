@@ -1,0 +1,8 @@
+{
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "elkia:hoarder/snowman_head"
+}

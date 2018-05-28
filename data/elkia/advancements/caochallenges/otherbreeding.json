@@ -1,0 +1,20 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Population Control (15k)",
+        "description": "Guess you gotta replenish some of those mobs, huh?",
+        "icon": {
+            "item": "minecraft:wheat"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "otherBreeding": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "elkia:caochallenges/othermobkills"
+}

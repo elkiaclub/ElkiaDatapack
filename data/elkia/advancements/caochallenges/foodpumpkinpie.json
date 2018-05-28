@@ -1,0 +1,20 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Sweet Tooth (500)",
+        "description": "Made with sugar, spice, and everything nice!",
+        "icon": {
+            "item": "minecraft:pumpkin_pie"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "foodPumpkinPie": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "elkia:caochallenges/foodapple"
+}

@@ -1,0 +1,20 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "A Sandy Time (5k)",
+        "description": "This stuff gets everywhere!",
+        "icon": {
+            "item": "minecraft:sand"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "blockssand": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "elkia:caochallenges/blocksdirt"
+}

@@ -1,0 +1,20 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Buckets of Experience (250)",
+        "description": "That's a lot of levels you've got there...",
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "otherxp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "elkia:caochallenges/otherenchanting"
+}

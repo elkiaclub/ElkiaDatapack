@@ -1,0 +1,20 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Natural Decoration (500)",
+        "description": "Nothing like nature to add some colour to your home.",
+        "icon": {
+            "item": "minecraft:pink_tulip"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "otherPlantPots": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "elkia:caochallenges/caoother"
+}

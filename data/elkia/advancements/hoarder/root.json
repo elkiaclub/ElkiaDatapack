@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Hoarders",
+        "description": "Collect all the things!",
+        "icon": {
+            "item": "minecraft:diamond_block"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/blocks/iron_block.png"
+    },
+    "criteria": {
+        "FirstJoin": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

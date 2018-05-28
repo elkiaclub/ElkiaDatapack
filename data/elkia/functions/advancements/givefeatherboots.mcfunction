@@ -1,0 +1,1 @@
+give @s minecraft:leather_boots{Damage:0,ench:[{id:19,lvl:2}]} 1

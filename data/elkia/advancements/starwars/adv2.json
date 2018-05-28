@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "UNLIMITED POWER!",
+        "description": "Strike your opponent with lightning!",
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "LightningPlayer": {
+            "trigger": "minecraft:channeled_lightning",
+            "conditions": {
+                "victims": [
+                    {
+                        "type": "minecraft:player"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "elkia:starwars/adv1"
+}

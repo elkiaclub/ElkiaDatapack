@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Full inv of sand in desert",
+        "description": "Description",
+        "icon": {
+            "item": "minecraft:sand"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "SandyInv": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "sand",
+                        "count": {
+                            "min": 1728,
+                            "max": 1728
+                        }
+                    }
+                ]
+            }
+        },
+        "InDesert": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "desert"
+            }
+        }
+    },
+    "parent": "elkia:starwars/root"
+}

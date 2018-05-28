@@ -1,0 +1,62 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Trapdoor Master",
+        "description": "You really like trapdoors too, huh?",
+        "icon": {
+            "item": "minecraft:oak_trapdoor"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "OakTrapdoor": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "oak_trapdoor"
+            }
+        },
+        "BirchTrapdoor": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "birch_trapdoor"
+            }
+        },
+        "SpruceTrapdoor": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "spruce_trapdoor"
+            }
+        },
+        "JungleTrapdoor": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "jungle_trapdoor"
+            }
+        },
+        "AcaciaTrapdoor": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "acacia_trapdoor"
+            }
+        },
+        "DarkOakTrapdoor": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "dark_oak_trapdoor"
+            }
+        },
+        "IronTrapdoor": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "iron_trapdoor"
+            }
+        }
+    },
+    "rewards": {
+        "function": "elkia:advancements/givetrapdoors"
+    },
+    "parent": "elkia:elkia/adv4"
+}

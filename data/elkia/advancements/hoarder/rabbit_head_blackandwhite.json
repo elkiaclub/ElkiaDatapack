@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Black And White Rabbit Head",
+        "description": " ",
+        "icon": {
+            "item": "minecraft:rabbit_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "elkia:advancements/hoardercount2"
+    },
+	"parent": "elkia:hoarder/rabbit_head_black"
+}

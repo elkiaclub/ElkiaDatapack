@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "Slime Head",
+        "description": " ",
+        "icon": {
+            "item": "minecraft:slime_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "elkia:advancements/hoardercount2"
+    },
+	"parent": "elkia:hoarder/skeleton_horse_head"
+}

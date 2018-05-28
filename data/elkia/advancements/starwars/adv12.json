@@ -1,0 +1,56 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Craft dia, em, red blocks",
+        "description": "Description",
+        "icon": {
+            "item": "minecraft:emerald_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "DiaBlocks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "diamond_block",
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "EmBlocks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "emerald_block",
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "RedBlocks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "redstone_block",
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "elkia:starwars/root"
+}

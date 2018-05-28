@@ -1,0 +1,30 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Hit Skele (100 blocks)",
+        "description": "Description",
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ShotSkele": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:skeleton",
+                    "distance": {
+                        "horizontal": {
+                            "min": 100
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "elkia:starwars/root"
+}

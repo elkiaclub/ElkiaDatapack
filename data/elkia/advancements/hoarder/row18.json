@@ -1,8 +1,1 @@
-{
-    "criteria": {
-        "auto": {
-            "trigger": "minecraft:tick"
-        }
-    },
-    "parent": "elkia:hoarder/cyan_dye"
-}
+{"criteria": {"auto": {"trigger": "minecraft:tick"}},"parent": "elkia:hoarder/brown_banner"}

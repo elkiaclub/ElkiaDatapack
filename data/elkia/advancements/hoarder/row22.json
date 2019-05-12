@@ -1,8 +1,1 @@
-{
-    "criteria": {
-        "auto": {
-            "trigger": "minecraft:tick"
-        }
-    },
-    "parent": "elkia:hoarder/beetroot_soup"
-}
+{"criteria": {"auto": {"trigger": "minecraft:tick"}},"parent": "elkia:hoarder/dark_oak_boat"}

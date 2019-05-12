@@ -1,8 +1,1 @@
-{
-    "criteria": {
-        "auto": {
-            "trigger": "minecraft:tick"
-        }
-    },
-    "parent": "elkia:hoarder/brown_glazed_terracotta"
-}
+{"criteria": {"auto": {"trigger": "minecraft:tick"}},"parent": "elkia:hoarder/end_stone_bricks"}

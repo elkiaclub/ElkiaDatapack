@@ -1,8 +1,1 @@
-{
-    "criteria": {
-        "auto": {
-            "trigger": "minecraft:tick"
-        }
-    },
-    "parent": "elkia:hoarder/emerald"
-}
+{"criteria": {"auto": {"trigger": "minecraft:tick"}},"parent": "elkia:hoarder/wheat_seeds"}

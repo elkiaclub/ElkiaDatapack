@@ -38,8 +38,8 @@
                 },
                 {
                     "condition": "random_chance_with_looting",
-                    "chance": 0.005,
-                    "looting_multiplier": 0.0025
+                    "chance": 0.02,
+                    "looting_multiplier": 0.01
                 }
             ],
             "rolls": 1,

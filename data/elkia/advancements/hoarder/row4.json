@@ -1,8 +1,1 @@
-{
-    "criteria": {
-        "auto": {
-            "trigger": "minecraft:tick"
-        }
-    },
-    "parent": "elkia:hoarder/black_wool"
-}
+{"criteria": {"auto": {"trigger": "minecraft:tick"}},"parent": "elkia:hoarder/red_tulip"}

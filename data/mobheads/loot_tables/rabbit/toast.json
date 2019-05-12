@@ -47,8 +47,10 @@
                                 {
                                     "condition": "entity_properties",
                                     "entity": "this",
-                                    "properties": {
-                                        "on_fire": true
+                                    "predicate": {
+                                        "flags": {
+											"is_on_fire": true
+										}
                                     }
                                 }
                             ]
@@ -92,8 +94,8 @@
                 },
                 {
                     "condition": "random_chance_with_looting",
-                    "chance": 0.10,
-                    "looting_multiplier": 0.05
+                    "chance": 0.20,
+                    "looting_multiplier": 0.1
                 }
             ],
             "rolls": 1,

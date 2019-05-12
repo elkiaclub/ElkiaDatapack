@@ -11,8 +11,8 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 1,
-                                "max": 1
+                                "min": 0,
+                                "max": 0
                             }
                         }
                     ]
@@ -62,7 +62,7 @@
 						{	
 							"function": "set_name",
 							"name": {
-								"translate":"Wither Invulnerable Head",
+								"translate":"Wither Head",
 								"italic":"false"
 							}
 						}
@@ -80,7 +80,7 @@
 						{	
 							"function": "set_name",
 							"name": {
-								"translate":"Wither Head",
+								"translate":"Wither Invulnerable Head",
 								"italic":"false"
 							}
 						}

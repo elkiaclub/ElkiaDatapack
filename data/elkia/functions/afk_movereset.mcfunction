@@ -1,5 +1,4 @@
 execute as @a[scores={AFK_DisSwum=1..}] run scoreboard players set @s AFK_DisSwum 0
-execute as @a[scores={AFK_DisDove=1..}] run scoreboard players set @s AFK_DisDove 0
 execute as @a[scores={AFK_DisWalk=1..}] run scoreboard players set @s AFK_DisWalk 0
 execute as @a[scores={AFK_DisCrouch=1..}] run scoreboard players set @s AFK_DisCrouch 0
 execute as @a[scores={AFK_DisElytra=1..}] run scoreboard players set @s AFK_DisElytra 0

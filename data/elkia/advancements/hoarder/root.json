@@ -9,7 +9,7 @@
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false,
-        "background": "minecraft:textures/blocks/iron_block.png"
+        "background": "minecraft:textures/block/diamond_block.png"
     },
     "criteria": {
         "FirstJoin": {

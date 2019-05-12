@@ -1,7 +1,7 @@
 # ElkiaDatapack
-The minecraft datapack for the Elkia server, built for use in 1.13 onwards.
+The Elkia datapack, powering most of our custom tweaks and features. Built for Minecraft 1.14+.
 
-Current Features:
+##Features: (outdated, blame cao)
 - Endermen cannot grief.
 - Dragon drops elytra, dragon egg, and dragon head.
 - One player sleep
@@ -16,7 +16,7 @@ Current Features:
 - Player head crafting - ability to use a dropper to craft a decorative player head, such as a little 'lantern'
 - Basic armour stand manipulation - using a nametag, name an armour stand "Arms" to show his arms, or "Small" to make it a baby armour stand.
 
-Installation:
+##Installation:
 - Download this datapack and place it into your <world>/datapacks folder.
 - Type /reload in game.
 - Go to your world spawn, stand on the very lowest block (Y:0), and type /function elkia:elkia_setup

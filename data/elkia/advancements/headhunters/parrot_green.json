@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "Green Parrot Head",
+        "description": "100%",
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt":  "{SkullOwner:{Id:\"b95a9198-cf0b-4cfa-bf6d-2f172dc6ee65\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI5YTM2YzU1ODlmM2EyZTU5YzFjYWE5YjNiODhmYWRhNzY3MzJiZGI0YTc5MjYzODhhOGMwODhiYmJjYiJ9fX0=\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "elkia:advancements/headhunters"
+    },
+	"parent": "elkia:headhunters/parrot_gray"
+}

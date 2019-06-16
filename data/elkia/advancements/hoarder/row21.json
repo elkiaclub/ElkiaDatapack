@@ -1,1 +1,1 @@
-{"criteria": {"auto": {"trigger": "minecraft:tick"}},"parent": "elkia:hoarder/cooked_chicken"}
+{"criteria": {"auto": {"trigger": "minecraft:tick"}},"parent": "elkia:hoarder/mutton"}

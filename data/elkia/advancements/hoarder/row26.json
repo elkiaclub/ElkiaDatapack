@@ -1,1 +1,1 @@
-{"criteria": {"auto": {"trigger": "minecraft:tick"}},"parent": "elkia:hoarder/scute"}
+{"criteria": {"auto": {"trigger": "minecraft:tick"}},"parent": "elkia:hoarder/turtle_helmet"}

@@ -1,1 +1,1 @@
-{"criteria": {"auto": {"trigger": "minecraft:tick"}},"parent": "elkia:hoarder/ender_pearl"}
+{"criteria": {"auto": {"trigger": "minecraft:tick"}},"parent": "elkia:hoarder/blaze_rod"}

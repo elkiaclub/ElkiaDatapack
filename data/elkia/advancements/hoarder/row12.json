@@ -1,1 +1,1 @@
-{"criteria": {"auto": {"trigger": "minecraft:tick"}},"parent": "elkia:hoarder/end_stone_bricks"}
+{"criteria": {"auto": {"trigger": "minecraft:tick"}},"parent": "elkia:hoarder/magma_block"}

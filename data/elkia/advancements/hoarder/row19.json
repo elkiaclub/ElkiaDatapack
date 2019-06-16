@@ -1,1 +1,1 @@
-{"criteria": {"auto": {"trigger": "minecraft:tick"}},"parent": "elkia:hoarder/iron_ingot"}
+{"criteria": {"auto": {"trigger": "minecraft:tick"}},"parent": "elkia:hoarder/gold_ingot"}

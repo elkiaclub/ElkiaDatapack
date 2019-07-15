@@ -40,4 +40,5 @@ bossbar add welcome "Welcome"
 bossbar set minecraft:welcome value 100
 bossbar set minecraft:welcome color blue
 gamerule commandBlockOutput false
-tellraw @a ["",{"text":"Elkia Datapack V2.0","color":"dark_aqua"},{"text":" installed successfully","color":"aqua"}]
+gamerule doFireTick false
+tellraw @a[tag=Admin] ["",{"text":"Elkia Datapack V2.0","color":"dark_aqua"},{"text":" loaded successfully.","color":"aqua"}]

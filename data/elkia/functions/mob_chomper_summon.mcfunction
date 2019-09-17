@@ -1,0 +1,2 @@
+execute as @e[tag=Boss] at @s run summon minecraft:silverfish ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:0b,CustomNameVisible:0b,NoAI:1b,Tags:["Chomper","New"],CustomName:"{\"text\":\"Chomper\",\"color\":\"gray\"}",ActiveEffects:[{Id:14b,Amplifier:1b,Duration:24000,ShowParticles:0b}]}
+scoreboard players set ChomperTimer Events 200

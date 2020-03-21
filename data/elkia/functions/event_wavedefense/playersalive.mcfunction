@@ -1,0 +1,1 @@
+execute as @e[tag=Witch] at @s run tellraw @a[distance=..64] [{"score":{"name":"PlayersAlive","objective":"EventWaveDefense"},"color":"red"},{"text":" players remain...","color":"gold"}]

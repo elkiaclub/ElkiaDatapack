@@ -6,10 +6,8 @@ team modify AFK color dark_gray
 team modify AFK seeFriendlyInvisibles false
 team modify AFK prefix ["",{"text":"[AFK]","color":"gray"}]
 team add players
-team modify players color dark_aqua
 team modify players seeFriendlyInvisibles false
 team add admins
-team modify admins color dark_aqua
 team modify admins seeFriendlyInvisibles false
 team modify admins prefix {"text":"[A]","color":"green","hoverEvent":{"action":"show_text","value":"Click to go AFK!"},"clickEvent":{"action":"run_command","value":"/trigger AFK_NotMoving set 11999"}}
 scoreboard objectives add AFK_DisSwum minecraft.custom:minecraft.swim_one_cm

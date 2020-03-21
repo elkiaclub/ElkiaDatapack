@@ -114,4 +114,6 @@ advancement grant @a[nbt={Inventory:[{id:"minecraft:player_head",tag:{display:{N
 advancement grant @a[nbt={Inventory:[{id:"minecraft:player_head",tag:{display:{Name:"{\"italic\":false,\"translate\":\"Zombie Weaponsmith Head\"}"}}}]}] only elkia:headhunters/zombie_villager_weaponsmith
 advancement grant @a[nbt={Inventory:[{id:"minecraft:player_head",tag:{display:{Name:"{\"italic\":false,\"translate\":\"Zombie Villager Head\"}"}}}]}] only elkia:headhunters/zombie_villager
 advancement grant @a[nbt={Inventory:[{id:"minecraft:player_head",tag:{display:{Name:"{\"italic\":false,\"translate\":\"Brown Mooshroom Head\"}"}}}]}] only elkia:headhunters/mooshroom_brown
+advancement grant @a[nbt={Inventory:[{id:"minecraft:player_head",tag:{display:{Name:"{\"italic\":false,\"translate\":\"Wandering Trader Head\"}"}}}]}] only elkia:headhunters/wandering_trader
+
 advancement revoke @s only elkia:headhunters/player_head

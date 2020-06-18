@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:birch_fence"
+        },
+		{
+            "item": "minecraft:birch_fence"
+        }
+    ],
+    "result": {
+        "item": "minecraft:birch_fence_gate",
+        "count": 1
+    }
+}

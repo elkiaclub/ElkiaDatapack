@@ -1,1 +1,0 @@
-execute as @e[type=husk,tag=Event,limit=1] at @s run tellraw @a[distance=..100] ["",{"text":"<"},{"text":"Helios","color":"gold"},{"text":"> Prepare to die, pathetic mortals!"}]

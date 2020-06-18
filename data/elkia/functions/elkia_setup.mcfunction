@@ -39,4 +39,4 @@ bossbar set minecraft:welcome value 100
 bossbar set minecraft:welcome color blue
 gamerule commandBlockOutput false
 gamerule doFireTick false
-tellraw @a[team=admins] ["",{"text":"Elkia S5 Datapack V3.0-beta","color":"yellow"},{"text":" loaded successfully.","color":"dark_green"}]
+tellraw @a[team=admins] ["",{"text":"Elkia S5 Datapack","color":"yellow"},{"text":" (Installed)","italic":true,"color":"green"}]

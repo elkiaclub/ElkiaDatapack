@@ -1,24 +1,17 @@
 # ElkiaDatapack
-The Elkia datapack, powering most of our custom tweaks and features. Built for Minecraft 1.14+.
+**The [Elkia](https://elkia.club) Datapack for Season 5.**
+*Built for Minecraft (Java Edition) 1.16+*
 
-##Features: (outdated, blame cao)
-- Endermen cannot grief.
-- Dragon drops elytra, dragon egg, and dragon head.
-- One player sleep
-- Random sleep messages
-- Every mob (except dolphins) have a head drop incorporated into loot tables
-- Mob variants (red vs blue parrot) have unique heads (except tropical_fish cause like infinite variations)
-- Personalised "Welcome to Elkia, <username>!" bossbar when player's first join
-- Personalised "Welcome back, <username>!" when player relogs (doesn't happen first time join)
-- Automatic AFK announcement + shown in player list, with [AFK] tag
-- Player roles - default, veteran, donator, admin, afk - each has custom [] tag (except default)
-- Relying on player roles, you can click the [] before your name to manually be set to AFK
-- Player head crafting - ability to use a dropper to craft a decorative player head, such as a little 'lantern'
-- Basic armour stand manipulation - using a nametag, name an armour stand "Arms" to show his arms, or "Small" to make it a baby armour stand.
+Updated by @TomminMC for Season 5, built on top of the foundation by @APerfectPenguin.
 
-##Installation:
-- Download this datapack and place it into your <world>/datapacks folder.
-- Type /reload in game.
-- Go to your world spawn, stand on the very lowest block (Y:0), and type /function elkia:elkia_setup
-- To join a player role: /tag <user> add <role> - Acceptable roles: admin, donator, veteran (remove these tags for default)
-- To setup custom crafting: /function elkia:crafting_setup
+## Features: 
+- One player sleep (includes custom messages)
+- AFK tagging (greys out username in the tablist)
+- Endermen cannot grief. 
+- Ender Dragon drops elytra, dragon egg, and a dragon head.
+- All Shulkers drop 2 Shulker Shells.
+- Players drop player heads when killed in PvP
+- All mobs have a small chance to drop their heads when killed by a player (drop rates are loosely based on farmability. Gotta catch them all!)
+- Silence mobs by hitting them with a "Silent" nametag.
+- Quality of life recipes (cheaper chains, stripped logs <-> logs, cobwebs from string, dispensers are less pain to craft, flint to gravel, masscrafting for chests and hoppers, fence gates <-> fence, uncrafting packed ice)
+-  Universal Dyeing of Wool, Glass, Terracotta, Concrete etc.. if it can be colored, it can be re-colored. Beds, not included!

@@ -33,6 +33,8 @@ scoreboard objectives add Sleep dummy
 scoreboard objectives add Sleeping dummy
 scoreboard objectives add headDeath minecraft.custom:minecraft.deaths
 scoreboard objectives add headKill minecraft.custom:minecraft.player_kills
+scoreboard objectives add dontsleep trigger
+scoreboard objectives add dontSleepCD dummy
 scoreboard players set #SleepMessageLimit Sleep 43
 bossbar add welcome "Welcome"
 bossbar set minecraft:welcome value 100

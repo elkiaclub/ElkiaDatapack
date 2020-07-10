@@ -1,0 +1,21 @@
+
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "SSS",
+        "SXS",
+		"SSS"
+    ],
+    "key": {
+		"S": {
+			"item": "minecraft:string"
+		},
+		"X": {
+			"item": "minecraft:spider_eye"
+		}
+    },
+    "result": {
+        "item": "minecraft:cobweb",
+        "count": 1
+    }
+}

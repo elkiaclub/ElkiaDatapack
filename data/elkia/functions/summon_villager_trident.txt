@@ -1,5 +1,0 @@
-summon villager ~ ~ ~ {Silent:1b,Invulnerable:1b,CustomNameVisible:1b,NoAI:1b,CustomName:"{\"text\":\"Trident Handler\",\"color\":\"dark_aqua\"}",VillagerData:{level:5,profession:"minecraft:armorer",type:"minecraft:swamp"},Offers:{Recipes:[
-{rewardExp:0b,maxUses:2147483647,priceMultiplier:1f,buy:{id:"minecraft:trident",Count:1b},sell:{id:"minecraft:trident",Count:1b,tag:{display:{Name:"{\"text\":\"Mjolnir\",\"color\":\"gray\",\"italic\":false}",Lore:["{\"text\":\"He who is worthy shall weild the powers of Thor.\"}"]},CustomModelData:10000001}}},
-{rewardExp:0b,maxUses:2147483647,priceMultiplier:1f,buy:{id:"minecraft:trident",Count:1b},sell:{id:"minecraft:trident",Count:1b,tag:{display:{Name:"{\"text\":\"Emoji Hammer\",\"color\":\"gold\",\"italic\":false}",Lore:["{\"text\":\"The face shall judge you!\"}"]},CustomModelData:10000002}}},
-{rewardExp:0b,maxUses:2147483647,priceMultiplier:1f,buy:{id:"minecraft:trident",Count:1b},sell:{id:"minecraft:trident",Count:1b,tag:{display:{Name:"{\"text\":\"Magic Wand\",\"color\":\"aqua\",\"italic\":false}",Lore:["{\"text\":\"Bippity Boppity Boo!\"}"]},CustomModelData:10000003}}}
-]}}

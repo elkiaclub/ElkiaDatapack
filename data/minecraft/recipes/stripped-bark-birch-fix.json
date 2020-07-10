@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:stripped_birch_wood"
+        },
+		 {
+            "item": "minecraft:stripped_birch_wood"
+        }
+    ],
+    "result": {
+        "item": "minecraft:birch_wood",
+        "count": 2
+    }
+}

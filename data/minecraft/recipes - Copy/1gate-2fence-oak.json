@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:oak_fence_gate"
+        }
+    ],
+    "result": {
+        "item": "minecraft:oak_fence",
+        "count": 2
+    }
+}

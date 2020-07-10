@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:warped_fence"
+        },
+		{
+            "item": "minecraft:warped_fence"
+        }
+    ],
+    "result": {
+        "item": "minecraft:warped_fence_gate",
+        "count": 1
+    }
+}

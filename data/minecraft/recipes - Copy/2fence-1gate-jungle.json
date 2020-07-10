@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:jungle_fence"
+        },
+		{
+            "item": "minecraft:jungle_fence"
+        }
+    ],
+    "result": {
+        "item": "minecraft:jungle_fence_gate",
+        "count": 1
+    }
+}

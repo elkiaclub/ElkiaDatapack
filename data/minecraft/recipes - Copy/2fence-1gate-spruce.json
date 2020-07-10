@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:spruce_fence"
+        },
+		{
+            "item": "minecraft:spruce_fence"
+        }
+    ],
+    "result": {
+        "item": "minecraft:spruce_fence_gate",
+        "count": 1
+    }
+}

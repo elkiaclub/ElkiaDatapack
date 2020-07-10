@@ -33,10 +33,12 @@ scoreboard objectives add Sleep dummy
 scoreboard objectives add Sleeping dummy
 scoreboard objectives add headDeath minecraft.custom:minecraft.deaths
 scoreboard objectives add headKill minecraft.custom:minecraft.player_kills
+scoreboard objectives add dontsleep trigger
+scoreboard objectives add dontSleepCD dummy
 scoreboard players set #SleepMessageLimit Sleep 43
 bossbar add welcome "Welcome"
 bossbar set minecraft:welcome value 100
 bossbar set minecraft:welcome color blue
 gamerule commandBlockOutput false
 gamerule doFireTick false
-tellraw @a[tag=Admin] ["",{"text":"Elkia Datapack V2.0","color":"dark_aqua"},{"text":" loaded successfully.","color":"aqua"}]
+tellraw @a[team=admins] ["",{"text":"Elkia S5 Datapack","color":"yellow"},{"text":" (Installed)","italic":true,"color":"green"}]
